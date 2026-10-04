@@ -1,14 +1,14 @@
-# ⚽ FutsalApp Syahril
+# FutsalApp
 
 Aplikasi Sistem Informasi Lapangan Futsal berbasis Java Swing dan MySQL.
 
-Project ini dibuat untuk memenuhi tugas **Pemrograman II – Pertemuan 7**.
+Project ini dibuat untuk memenuhi tugas **Pemrograman II – Pertemuan 5–7**.
 
-## 📌 Tentang Project
+## Tentang Project
 
 FutsalApp Syahril merupakan aplikasi sederhana untuk mengelola data lapangan futsal. Aplikasi digunakan untuk menginput, menyimpan, melihat, mengubah, dan menghapus data lapangan.
 
-## 🛠️ Teknologi
+## Teknologi
 
 - Java
 - Java Swing
@@ -17,7 +17,7 @@ FutsalApp Syahril merupakan aplikasi sederhana untuk mengelola data lapangan fut
 - MySQL Connector/J
 - JDK 21
 
-## ✨ Fitur
+## Fitur
 
 - Input data lapangan
 - Menyimpan data lapangan
@@ -28,9 +28,9 @@ FutsalApp Syahril merupakan aplikasi sederhana untuk mengelola data lapangan fut
 - Menampilkan status lapangan
 - Cetak laporan data lapangan
 
-## 📂 Struktur Project
+## Struktur Project
 
-```text
+~~~
 FutsalApp_Syahril/
 ├── nbproject/
 ├── src/
@@ -53,34 +53,56 @@ FutsalApp_Syahril/
 ├── build.xml
 ├── manifest.mf
 └── .gitignore
+~~~
 
-| Field         | Keterangan                |
-| ------------- | ------------------------- |
-| ID Lapangan   | Identitas lapangan        |
-| Nama Lapangan | Nama lapangan             |
-| Tipe Lapangan | Indoor / Outdoor          |
-| Harga         | Harga sewa per jam        |
-| Status        | Tersedia / Tidak Tersedia |
+## Database
 
-Cara Menjalankan
-1. Clone Repository
+Aplikasi menggunakan **MySQL** sebagai database untuk menyimpan data lapangan futsal.
+
+### Data Lapangan
+
+| Field | Keterangan |
+|---|---|
+| ID Lapangan | Identitas lapangan |
+| Nama Lapangan | Nama lapangan |
+| Tipe Lapangan | Indoor / Outdoor |
+| Harga | Harga sewa per jam |
+| Status | Tersedia / Tidak Tersedia |
+
+## Cara Menjalankan
+
+### 1. Clone Repository
+
+~~~bash
 git clone https://github.com/DevLabsss/FutsalApp_Syahril.git
+~~~
 
-2. Buka Project
-Buka project menggunakan NetBeans IDE.
+### 2. Buka Project
 
-3. Jalankan MySQL
-Gunakan XAMPP untuk menjalankan MySQL.
+Buka project menggunakan **NetBeans IDE**.
 
-4. Konfigurasi Database
-Sesuaikan konfigurasi database pada:
+### 3. Jalankan MySQL
+
+Jalankan **MySQL melalui XAMPP**.
+
+### 4. Konfigurasi Database
+
+Sesuaikan konfigurasi koneksi database pada:
+
+~~~text
 src/futsalapp/Koneksi.java
+~~~
 
-5. Jalankan Aplikasi
+### 5. Jalankan Aplikasi
+
 Buka project di NetBeans, kemudian jalankan aplikasi.
 
-👨‍💻 Author
-Achmad Syahril Fauzi
-GitHub: https://github.com/DevLabsss
+## Author
+
+**Achmad Syahril Fauzi**
+
+GitHub: [DevLabsss](https://github.com/DevLabsss)
+
+---
 
 © 2026 Achmad Syahril Fauzi
