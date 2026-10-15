@@ -392,7 +392,7 @@ private void tampilStatusLapangan() {
             ps.executeUpdate();
 
             JOptionPane.showMessageDialog(this,
-                "Booking dan pembayaran berhasil disimpan!");
+                "Booking dan pembayaran berhasil disimpan!", "sukses", JOptionPane.INFORMATION_MESSAGE);
 
             jTextField1.setText("");
             jTextField2.setText("");
